@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -22,5 +22,18 @@ function App() {
     </div>
   );
 }
+
+export default App;
+*/
+import React from "react";
+import WidgetOrderStats from "./WidgetOrderStats";
+
+const App: React.FC = () => {
+  return (
+    <div className="App">
+      <WidgetOrderStats />
+    </div>
+  );
+};
 
 export default App;
